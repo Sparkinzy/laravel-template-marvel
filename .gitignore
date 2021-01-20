@@ -13,3 +13,4 @@ yarn-error.log
 .idea
 composer.lock
 package-lock.json
+yarn.lock
