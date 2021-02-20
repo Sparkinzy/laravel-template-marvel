@@ -9,7 +9,7 @@
     "license": "MIT",
     "require": {
         "php": "^7.2",
-        "dcat/laravel-admin": "2.0.16-beta",
+        "dcat/laravel-admin": "2.0.17-beta",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "^6.2",
         "laravel/tinker": "^2.0",
