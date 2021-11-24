@@ -161,7 +161,8 @@ return [
     'grid' => [
 
         // The global Grid action display class.
-        'grid_action_class' => Dcat\Admin\Grid\Displayers\DropdownActions::class,
+//        'grid_action_class' => Dcat\Admin\Grid\Displayers\DropdownActions::class,
+        \App\Admin\Displayers\TextActions::class,
 
         // The global Grid batch action display class.
         'batch_action_class' => Dcat\Admin\Grid\Tools\BatchActions::class,

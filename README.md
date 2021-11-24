@@ -19,18 +19,37 @@ php artisan admin:install
 
 ## 库列表
 
-- laravel/laravel:6.*
-- laravel/ui:1.0
-- overtrue/laravel-lang:latest
-- barryvdh/laravel-ide-helper:latest
-- eleven26/listen-sql   
-
-
-## 命令
-
-```bash
-# 实时监听当前执行的sql
-php artisan listen-sql:start 
+```json
+{
+"require": {
+        "php": "^7.3|^8.0",
+        "dcat/laravel-admin": "2.1.5-beta",
+        "dcat/laravel-wherehasin": "^0.8.0",
+        "fideloper/proxy": "^4.4",
+        "fruitcake/laravel-cors": "^2.0",
+        "guzzlehttp/guzzle": "^7.0.1",
+        "jiannei/laravel-enum": "^1.3",
+        "jiannei/laravel-response": "^1.6",
+        "laravel/framework": "^8.12",
+        "laravel/tinker": "^2.5",
+        "overtrue/laravel-lang": "^5.0",
+        "sparkinzy/dcat-distpicker": "^1.0",
+        "sparkinzy/dcat-kindeditor": "^1.0",
+        "sparkinzy/dcat-viewer": "^1.0",
+        "sparkinzy/laravel-schedule-command": "^1.0"
+    },
+    "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.6",
+        "barryvdh/laravel-ide-helper": "^2.7",
+        "facade/ignition": "^2.5",
+        "fakerphp/faker": "^1.9.1",
+        "laravel/sail": "^1.0.1",
+        "mockery/mockery": "^1.4.2",
+        "nunomaduro/collision": "^5.0",
+        "phpunit/phpunit": "^9.3.3"
+    }
+}
 ```
+
 
 
