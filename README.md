@@ -1,5 +1,10 @@
-# marvel
-my laravel8 project template
+# marvel 漫威
+
+基于 laravel8 的项目模版
+
+自带 [DcatAdmin](https://github.com/jqhph/dcat-admin) 后台最新版
+
+追加一些常用的第三方库
 
 ## usage
 
