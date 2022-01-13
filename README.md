@@ -21,9 +21,9 @@ php artisan admin:install
 
 ```json
 {
-"require": {
+    "require": {
         "php": "^7.3|^8.0",
-        "dcat/laravel-admin": "2.1.5-beta",
+        "dcat/laravel-admin": "2.1.7-beta",
         "dcat/laravel-wherehasin": "^0.8.0",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
