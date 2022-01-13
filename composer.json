@@ -1,7 +1,7 @@
 {
     "name": "samuel/marvel",
     "type": "project",
-    "version": "2.0.1",
+    "version": "2.0.3",
     "description": "The Laravel Framework.",
     "keywords": ["marvel","framework", "laravel"],
     "license": "MIT",
