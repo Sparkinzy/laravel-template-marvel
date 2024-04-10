@@ -1,0 +1,18 @@
+<?php
+
+namespace DummyNamespace;
+
+use Jiannei\Enum\Laravel\Contracts\LocalizedEnumContract;
+use Jiannei\Enum\Laravel\Enum;
+
+/**
+ * Class DummyEnum
+ * @package App\Enums
+ *
+ */
+final class DummyClass extends Enum implements LocalizedEnumContract
+{
+
+    const PENDING = 0;
+
+}
